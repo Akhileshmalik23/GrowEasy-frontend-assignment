@@ -49,10 +49,10 @@ const EditBannerTemplateBs: React.FC<EditBannerProps> = ({ banner, onSave, onClo
       <div className="mb-4">
         <label className="block text-black font-medium  font-grandstander">Button</label>
         <input
-          name="cta"
-          value={formData.cta}
+          name="button"
+          value={formData.button}
           onChange={handleChange}
-          placeholder="CTA"
+          placeholder="button"
           className="w-full border-gray-300 p-2 rounded mt-1"
         />
       </div>

@@ -5,13 +5,13 @@ interface BannerProps {
   id: number;
   title: string;
   description: string;
-  cta: string;
+  button: string;
   image: string;
   color: string;
   onEdit: (id: number, updatedBanner: any) => void;
 }
 
-const BannerImageComp: React.FC<BannerProps> = ({ id, title, description, cta, image, color, onEdit }) => {
+const BannerImageComp: React.FC<BannerProps> = ({ id, title, description, button, image, color, onEdit }) => {
   const [isEditing, setIsEditing] = useState(false);
 
   const handleEditClick = () => {
@@ -33,7 +33,7 @@ const BannerImageComp: React.FC<BannerProps> = ({ id, title, description, cta, i
         <p className="mt-3 ml-5 text-gray-700">{description}</p>
 
         <button className="mt-40 ml-6 w-40 bg-blue-500 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-black hover:border-red-400 hover:border-2 hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105">
-          {cta}
+          {button}
         </button>
 
         <button
@@ -45,7 +45,7 @@ const BannerImageComp: React.FC<BannerProps> = ({ id, title, description, cta, i
 
         {isEditing && (
           <EditBannerTemplateBs
-            banner={{ title, description, cta, image, color }}
+            banner={{ title, description, button, image, color }}
             onSave={handleSave}
             onClose={() => setIsEditing(false)}
           />

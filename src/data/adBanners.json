@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Banner 1",
     "description": "This is the first ad banner.",
-    "cta": "Learn More",
+    "button": "Learn More",
     "image": "https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/1/square.png",
     "color": "#000"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "lets Do It",
     "description": "Click on the Learn More To learn Swim",
-    "cta": "Shop Now",
+    "button": "Shop Now",
     "image": "https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/15/square.png",
     "color": "#000"
   }
