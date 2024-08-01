@@ -16,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      
+      <body className={inter.className}
+     style={{backgroundImage: `url(https://groweasy.ai/images/dark-background.png)` }}
+      >{children}</body>
     </html>
   );
 }

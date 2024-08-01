@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'edu-hand': ['Edu AU VIC WA NT Hand', 'sans-serif'],
+        'grandstander': ['Grandstander', 'cursive'],
+        'kalam': ['Kalam', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
