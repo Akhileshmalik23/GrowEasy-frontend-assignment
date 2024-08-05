@@ -2,17 +2,17 @@
   {
     "id": 1,
     "title": "Banner 1",
-    "description": "This is the first ad banner.",
+    "description": "Learn how To Play football.",
     "button": "Learn More",
-    "image": "https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/1/square.png",
-    "color": "#000"
+    "image": "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUe_QYff_5SCXgTDdENVzeEB38QiODvjmLSGigdXr9ls6qadnmV-zHj1wrD9V8l8CcZ6dQYE6ljQiDXTEm0J6uZvlCymtJU5OmF0Pbz1cDcP5w-hFDJhQXyIASmdzFsJv22-9MxAjFz1wJmoAfvUJAuic5V8usEEwxowtQ=s2048?key=7CgiDLpeQptndxYbIB81qg",
+    "color": "#CC0000"
   },
   {
     "id": 2,
     "title": "lets Do It",
-    "description": "Click on the Learn More To learn Swim",
-    "button": "Shop Now",
-    "image": "https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/15/square.png",
+    "description": "Click on the lets go To learn Save Tree",
+    "button": "lets go",
+    "image": "https://miro.medium.com/v2/resize:fit:764/1*MusglThKnxASO1ErZ2AvYQ.png",
     "color": "#000"
   }
 ]
